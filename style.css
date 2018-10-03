@@ -7,6 +7,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 /*     MOBILE    */
 .sky {
   height: 100vh;
@@ -276,6 +280,35 @@ body {
   display: none;
 }
 
+/*   sections */
+
+.white {
+  height: 100vh;
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.white img {
+  width: 50vw;
+  height: auto;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.blue {
+  height: 100vh;
+  background-color: #302a49;
+  color: white;
+  text-align: center;
+  padding: 5em 2em;
+}
+
+.blue img {
+  width: 60vw;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
 /*-----------------------------------------------------------------------------
 web version
 ----------------------------------------------------------------------------*/
@@ -285,7 +318,7 @@ web version
     display: none;
   }
   .webNav {
-    display: grid;
+    display: block;
     position: fixed;
     overflow: hidden;
     width: 100%;
@@ -295,9 +328,10 @@ web version
 
   .webNav li {
     display: inline;
+    float: right;
   }
   .webNav li a {
-    color: #949698;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
   }
