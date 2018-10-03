@@ -346,13 +346,28 @@ footer {
 }
 
 footer img {
-  width: 5%;
-  padding: 1em;
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .copyright {
   grid-column: 1/-1;
   text-align: center;
+  padding: 5em 2em 0em 2em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*     ABOUT ME PAGE    */
+.me-pic img {
+  width: 100%;
+}
+.me-pic {
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  z-index: 1;
+  top: 5%;
 }
 /*-----------------------------------------------------------------------------
 web version
