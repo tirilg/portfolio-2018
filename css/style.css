@@ -301,6 +301,7 @@ html.sr .load-hidden {
   color: white;
   text-align: center;
   padding: 5em 2em;
+  position: relative;
 }
 
 .blue img {
