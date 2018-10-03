@@ -20,7 +20,12 @@ html.sr .load-hidden {
   width: 100%;
   position: absolute;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 2;
 }
 
 /*       burger menu     */
@@ -188,7 +193,7 @@ html.sr .load-hidden {
   width: 300vw;
   height: 300vw;
   color: #fefefe;
-  background: #eeb3e6;
+  background: #302a49;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;

@@ -1,0 +1,31 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <title>tkg-logo</title>
+  <rect class="cls-1" x="664.83333" y="583.33333" width="6.83333" height="57.06306"/>
+  <rect class="cls-1" x="682.15137" y="638.54725" width="6.83333" height="41.4694" transform="translate(1344.84998 -26.28608) rotate(90)"/>
+  <rect class="cls-1" x="699.4694" y="583.33333" width="6.83333" height="72.53195"/>
+  <rect class="cls-1" x="644.94149" y="556.07448" width="6.28368" height="47.16667" transform="translate(1227.74115 -68.42552) rotate(90)"/>
+  <rect class="cls-1" x="624.5" y="541.74544" width="6.83333" height="21.12095" transform="translate(1255.83333 1104.61184) rotate(180)"/>
+  <rect class="cls-1" x="672.94469" y="500.13409" width="6.83333" height="90.05605" transform="translate(1221.52347 -131.19925) rotate(90)"/>
+  <rect class="cls-1" x="716.2194" y="559.76597" width="6.83333" height="40.33333" transform="translate(1299.56871 -139.70343) rotate(90)"/>
+  <rect class="cls-1" x="732.9694" y="541.74544" width="6.83333" height="34.77053" transform="translate(1472.77214 1118.26142) rotate(180)"/>
+  <rect class="cls-2" x="749.06374" y="541.89882" width="13.66667" height="66.6133" transform="translate(464.26948 -328.78295) rotate(34.85066)"/>
+  <rect class="cls-2" x="752.76542" y="605.21404" width="13.66667" height="61.65251" transform="translate(1746.46458 548.67127) rotate(135)"/>
+</svg>
