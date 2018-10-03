@@ -306,9 +306,9 @@ mobile version
 
 .white {
   height: 100vh;
-  padding: 5em 2em;
+  width: auto;
   text-align: center;
-  position: relative;
+  padding: 5em 2em;
 }
 
 .white img {
@@ -316,7 +316,11 @@ mobile version
   height: auto;
 }
 
-.white-reveal {
+.white-reveal,
+.blue-reveal {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%); /* center div inside div vertically*/
 }
 
 .blue {
@@ -336,18 +340,29 @@ mobile version
 
 /*      footer    */
 footer {
-  background-color: #949698;
+  background-color: #c5a1ce;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 footer img {
-  width: 10%;
+  width: 5%;
+  padding: 1em;
+}
+
+.copyright {
+  grid-column: 1/-1;
+  text-align: center;
 }
 /*-----------------------------------------------------------------------------
 web version
 ----------------------------------------------------------------------------*/
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 800px) {
+  .sky {
+    width: 100vw;
+    height: auto;
+  }
   .outer-menu {
     display: none;
   }

@@ -14,11 +14,11 @@ function init() {
   ScrollReveal().reveal(".blue-reveal", { delay: 300 });
 
   window.onscroll = function() {
-    let navScrollMob = document.querySelector(".header");
+    const navScrollBg = document.querySelector(".header");
     if (window.pageYOffset > 50) {
-      navScrollMob.classList.add("navScroll");
+      navScrollBg.classList.add("navScroll");
     } else {
-      navScrollMob.classList.remove("navScroll");
+      navScrollBg.classList.remove("navScroll");
     }
   };
 }
