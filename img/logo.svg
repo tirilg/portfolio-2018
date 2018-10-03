@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.39081 159.90744">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 11.8px;
+      }
+    </style>
+  </defs>
+  <title>logo</title>
+  <g id="tk">
+    <g>
+      <path class="cls-1" d="M43.42272,59.236H25.2484V48.63489h49.228V59.236H56.36726v49.21683H43.42272Z"/>
+      <path class="cls-1" d="M97.58627,83.1186h-6.1599v25.33418H79.54044V48.63489H91.42637V72.5343h6.1599l13.37061-23.89941H124.4694l-16.5586,28.4104,19.26086,31.40749H112.50931Z"/>
+    </g>
+  </g>
+  <g id="line">
+    <polyline class="cls-2" points="154.438 6.327 6.963 6.327 6.963 153.802 154.438 153.802 154.438 77.732 97.314 77.732"/>
+  </g>
+</svg>
