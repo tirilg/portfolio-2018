@@ -354,9 +354,8 @@ footer {
 .social-media img {
   width: 30px;
   padding: 0.5em;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  float: right;
+  margin: auto;
 }
 
 .copyright {
@@ -383,6 +382,7 @@ web version
 ----------------------------------------------------------------------------*/
 
 @media screen and (min-width: 800px) {
+  /* navigation */
   .outer-menu {
     display: none;
   }
@@ -405,9 +405,25 @@ web version
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  /* homepage */
+
+  .white,
+  .blue {
+    padding: 15em 5em 15em 5em;
+  }
+
+  .white img,
+  .blue img {
+    max-width: 20vw;
+  }
 }
 
-@media screen and (min-width: 1200px) {
+/*-----------------------------------------------------------------------------
+for LARGE web version
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1400px) {
   .sky {
     width: 100vw;
     height: auto;
