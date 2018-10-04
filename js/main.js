@@ -3,6 +3,7 @@
 window.addEventListener("DOMContentLoaded", init);
 
 function init() {
+  ScrollReveal({ reset: true });
   ScrollReveal().reveal(".white-reveal", { delay: 300 });
   ScrollReveal().reveal(".blue-reveal", { delay: 300 });
 

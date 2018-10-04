@@ -343,10 +343,18 @@ footer {
   background-color: #c5a1ce;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 2em;
 }
 
-footer img {
-  width: 8%;
+.social-media {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media img {
+  width: 30px;
+  padding: 0.5em;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -375,10 +383,6 @@ web version
 ----------------------------------------------------------------------------*/
 
 @media screen and (min-width: 800px) {
-  .sky {
-    width: 100vw;
-    height: auto;
-  }
   .outer-menu {
     display: none;
   }
@@ -400,5 +404,12 @@ web version
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sky {
+    width: 100vw;
+    height: auto;
   }
 }
