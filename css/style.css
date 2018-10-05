@@ -18,6 +18,15 @@ mobile version
 ----------------------------------------------------------------------------*/
 .sky {
   height: 100vh;
+  position: relative;
+}
+
+.arrow {
+  max-width: 30px;
+  z-index: 100;
+  position: absolute;
+  top: 93vh;
+  left: 50%;
 }
 
 .header {

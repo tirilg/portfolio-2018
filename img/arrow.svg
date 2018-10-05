@@ -1,0 +1,11 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>arrow</title>
+  <path id="Expand_More" data-name="Expand More" class="cls-1" d="M24.285,11.284,16,19.571,7.715,11.283a1.01081,1.01081,0,0,0-1.429,1.43l8.999,9.002h0a1.00854,1.00854,0,0,0,1.428,0l8.999-9.002a1.00975,1.00975,0,1,0-1.427-1.429Z"/>
+</svg>
