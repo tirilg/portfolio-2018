@@ -402,10 +402,10 @@ footer a:hover {
 }
 
 /*-----------------------------------------------------------------------------
-web version
+tablet version
 ----------------------------------------------------------------------------*/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 35em) {
   /* navigation */
   .outer-menu {
     display: none;
@@ -450,6 +450,26 @@ web version
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*-----------------------------------------------------------------------------
+web version
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 52em) {
+  .blue,
+  .white {
+    padding: 12em 13em;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .rek-image {
+    width: 100%;
   }
 }
 
