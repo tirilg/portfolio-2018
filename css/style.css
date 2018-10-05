@@ -30,6 +30,15 @@ mobile version
   left: 50%;
 }
 
+#scroll path:hover,
+#scroll rect:hover {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+#scroll path:active {
+  fill: white;
+}
+
 .header {
   width: 100%;
   position: absolute;
