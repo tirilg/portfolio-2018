@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
   position: relative;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html.sr .load-hidden {
@@ -318,6 +319,7 @@ mobile version
   width: auto;
   text-align: center;
   padding: 5em 2em;
+  font-size: 1.2em;
 }
 
 .white img {
@@ -339,6 +341,7 @@ mobile version
   text-align: center;
   padding: 5em 2em;
   position: relative;
+  font-size: 1.2em;
 }
 
 .blue img {
@@ -349,12 +352,22 @@ mobile version
 
 /*      footer    */
 footer {
-  background-color: #c5a1ce;
-  padding: 2em;
+  background-color: rgba(205, 151, 218, 0.65);
+  padding: 4em 2em;
+  text-align: center;
 }
 
-.social-media {
-  display: inline;
+footer a {
+  display: inline-block;
+  padding: 5em 1em 0em 1em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: white;
+  transition: 0.3s ease;
 }
 
 .copyright {
@@ -408,6 +421,10 @@ web version
     text-decoration: none;
   }
 
+  .webNav a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+  }
   /* homepage */
 
   .white,
