@@ -22,6 +22,7 @@ a {
 /*-----------------------------------------------------------------------------
 mobile version
 ----------------------------------------------------------------------------*/
+
 .sky {
   height: 100vh;
   position: relative;
@@ -235,7 +236,7 @@ mobile version
   width: 300vw;
   height: 300vw;
   color: #fefefe;
-  background: rgba(48, 42, 73, 0.7);
+  background: rgba(48, 42, 73, 0.8);
   border-radius: 50%;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -283,6 +284,7 @@ mobile version
 .outer-menu .menu > div > div > ul {
   list-style: none;
   margin: 0;
+  padding: 0;
   display: block;
   max-height: 100vh;
 }
@@ -357,10 +359,10 @@ mobile version
 
 .btn {
   width: 15vw;
-  padding: 30px;
+  padding: 1em 3em;
   line-height: 150px;
   text-align: center;
-  text-transform: uppercase;
+
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
@@ -409,9 +411,6 @@ footer a:hover {
 }
 
 /*     ABOUT ME PAGE    */
-#about-header {
-  background: rgba(48, 42, 73, 0.7);
-}
 #me-pic {
   width: 100%;
 }
@@ -455,7 +454,7 @@ footer a:hover {
   color: white;
 }
 
-/*       hover effect     */
+/*      image overlay     */
 
 #animation {
   background-image: url("../img/TBS.gif");
@@ -465,18 +464,32 @@ footer a:hover {
   background-image: url("../img/cph-dare.gif");
 }
 #ux {
-  background-image: url("../img/rekreate_intro.gif");
+  background-image: url("../img/montree.gif");
+}
+
+#frontend {
+  background-image: url("../img/frontend.jpg");
+}
+
+#animation:hover,
+#video:hover,
+#ux:hover,
+#frontend:hover {
+  transform: scale(1.1);
 }
 
 #animation,
 #video,
-#ux {
+#ux,
+#frontend {
   width: 100vw;
   height: 20em;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all 0.5s ease;
 }
+
 .image-text {
   position: absolute;
   top: 50%;
@@ -485,6 +498,7 @@ footer a:hover {
   font-size: 2em;
   font-weight: 900;
 }
+
 .image-overlay {
   width: 100%;
   height: 100%;
@@ -502,72 +516,20 @@ footer a:hover {
   text-align: center;
   color: white;
 }
-/*
-hr {
-  border: 0;
-  height: 1px;
-  background: -webkit-gradient(
-    linear,
-    0 0,
-    100% 0,
-    from(#ccc),
-    to(#ccc),
-    color-stop(50%, #333)
-  );
-}
 
+/*  DETAILED PROJECTS PAGE   */
 
-.rek-image {
-  display: block;
-  opacity: 1;
-  width: 100%;
-  height: auto;
-  transition: 1s ease;
-  backface-visibility: hidden;
+.project img {
+  width: 100vw;
 }
-
-.rek-text {
-  transition: 1s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.rek-text p {
-  font-size: 0.8em;
-  line-height: 1.7em;
-}
-
-.rek-text h1 {
-  font-size: 1.4em;
-}
-
-.container:hover .rek-image {
-  opacity: 0.25;
-}
-
-.container:hover .rek-text {
-  opacity: 1;
-}
-
-.container:active .rek-image {
-  opacity: 0.25;
-}
-
-container:active .rek-text {
-  opacity: 1;
-}
-*/
 
 /*-----------------------------------------------------------------------------
 tablet version
 ----------------------------------------------------------------------------*/
 
-@media screen and (min-width: 35em) {
+@media all and (min-width: 35em) {
   /* navigation */
+
   .logo {
     grid-column: 1;
     grid-row: 1;
@@ -587,7 +549,7 @@ tablet version
 
   .webNav li {
     display: inline;
-    float: right;
+    padding-right: 1.5em;
   }
   .webNav li a {
     color: white;
@@ -625,11 +587,20 @@ tablet version
   grid-template-columns: 1fr 1fr;
 }
 
+/* DETAILED PROJECTS PAGE  */
+
+.project img {
+  width: 50vw;
+}
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 /*-----------------------------------------------------------------------------
 web version
 ----------------------------------------------------------------------------*/
 
-@media screen and (min-width: 52em) {
+@media all and (min-width: 52em) {
   .blue,
   .white {
     padding: 12em 13em;
@@ -649,14 +620,14 @@ web version
 for LARGE web version
 ----------------------------------------------------------------------------*/
 
-@media screen and (min-width: 1600px) {
+@media all and (min-width: 1600px) {
   .sky {
     width: 100vw;
     height: auto;
   }
 }
 
-@media screen and (min-width: 1679px) {
+@media all and (min-width: 1679px) {
   .arrow {
     top: 80vh;
   }
