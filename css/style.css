@@ -559,6 +559,11 @@ tablet version
 @media all and (min-width: 35em) {
   /* navigation */
 
+  .project:hover {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transition: 1s ease;
+  }
+
   .logo {
     grid-column: 1;
     grid-row: 1;
@@ -606,6 +611,12 @@ tablet version
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 4em 2em;
+    text-align: left;
+  }
+
+  .social-media {
+    text-align: right;
   }
 
   /* detailed products page */
