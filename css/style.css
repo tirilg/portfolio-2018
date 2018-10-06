@@ -14,6 +14,10 @@ html.sr .load-hidden {
   visibility: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*-----------------------------------------------------------------------------
 mobile version
 ----------------------------------------------------------------------------*/
@@ -358,6 +362,38 @@ mobile version
   padding-bottom: 2em;
   padding-top: 2em;
 }
+
+/*      portfolio button    */
+
+/*   idea from: https://codepen.io/pirrera/pen/bqVeGx */
+
+.btn {
+  width:20vw;
+  padding: 30px;
+  top:50vh;
+  line-height: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right, rgba(134,71,190,0.81) 0%,
+    rgba(197,125,161,0.81) 37%,
+    rgba(236,158,143,0.74) 60%,
+    rgba(249,170,137,0.74) 68%);
+  );
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.btn:active {
+  background-position: right center; /* change the direction of the change here */
+}
+
 
 /*      footer    */
 footer {
