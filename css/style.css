@@ -65,10 +65,26 @@ mobile version
   grid-row: 2;
 }
 
+.logo svg {
+  z-index: 900;
+  width: 50px;
+  padding: 2em 2em;
+}
 .logo img {
   z-index: 900;
   width: 50px;
   padding: 2em 2em;
+}
+#line polyline {
+  animation: draw 2s linear forwards;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+/* logo animation */
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 /*       burger menu     */
@@ -424,6 +440,10 @@ footer a:hover {
   font-size: 1.2em;
 }
 
+#about p {
+  padding: 3em 0em 5em 0em;
+}
+
 /*   PORTFOLIO PAGE    */
 
 .header-sky-dt {
@@ -605,18 +625,13 @@ tablet version
 
   /*  ABOUT ME PAGE   */
   #about img {
-    width: 52vw;
+    width: 70vw;
+  }
+
+  #about {
+    padding: 15em 5em 15em 5em;
   }
 }
-
-/*   PORTFOLIO PAGE    */
-
-/*#grid-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-/* DETAILED PROJECTS PAGE  */
 
 /*-----------------------------------------------------------------------------
 web version
@@ -637,6 +652,8 @@ web version
     width: 100%;
   }
 
+  /*  ABOUT ME PAGE */
+
   .header-sky {
     display: none;
   }
@@ -644,6 +661,10 @@ web version
   .header-sky-dt {
     display: block;
     width: 100vw;
+  }
+
+  #about img {
+    width: 30vw;
   }
 }
 
