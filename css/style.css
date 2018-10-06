@@ -16,6 +16,7 @@ html.sr .load-hidden {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /*-----------------------------------------------------------------------------
@@ -301,24 +302,10 @@ mobile version
 }
 
 .outer-menu .menu > div > div > ul > li > a:hover {
-  color: #e5e5e5;
+  color: rgba(255, 255, 255, 0.5);
 }
-
-.outer-menu .menu > div > div > ul > li > a:hover:after {
-  width: 100%;
-}
-
-.outer-menu .menu > div > div > ul > li > a:after {
-  content: "";
-  position: absolute;
-  z-index: 600;
-  bottom: -0.15em;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: #e5e5e5;
-  -webkit-transition: width 0.4s ease;
-  transition: width 0.4s ease;
+.outer-menu .menu > div > div > ul > li > a:active {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .webNav {
@@ -368,10 +355,10 @@ mobile version
 /*   idea from: https://codepen.io/pirrera/pen/bqVeGx */
 
 .btn {
-  width:20vw;
+  width: 20vw;
   padding: 30px;
-  top:50vh;
-  line-height: 90px;
+  top: 50vh;
+  line-height: 120px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -380,10 +367,11 @@ mobile version
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   background-image: linear-gradient(
-    to right, rgba(134,71,190,0.81) 0%,
-    rgba(197,125,161,0.81) 37%,
-    rgba(236,158,143,0.74) 60%,
-    rgba(249,170,137,0.74) 68%);
+    to right,
+    rgba(134, 71, 190, 0.81) 0%,
+    rgba(197, 125, 161, 0.81) 37%,
+    rgba(236, 158, 143, 0.74) 60%,
+    rgba(249, 170, 137, 0.74) 68%
   );
 }
 
@@ -393,7 +381,6 @@ mobile version
 .btn:active {
   background-position: right center; /* change the direction of the change here */
 }
-
 
 /*      footer    */
 footer {
