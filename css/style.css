@@ -471,14 +471,14 @@ footer a:hover {
 /*      image overlay     */
 
 #animation {
-  background-image: url("../img/TBS.gif");
+  background-image: url("../img/TBS-2.gif");
 }
 
 #video {
   background-image: url("../img/cph-dare.gif");
 }
 #ux {
-  background-image: url("../img/montree.gif");
+  background-image: url("../img/rekreate_intro.gif");
 }
 
 #frontend {
@@ -664,6 +664,15 @@ web version
   }
 
   #about img {
+    width: 30vw;
+  }
+
+  /* DETAILED PROJECTS PAGE */
+
+  .project {
+    padding: 2em;
+  }
+  .project img {
     width: 30vw;
   }
 }
