@@ -412,8 +412,16 @@ footer a:hover {
 }
 
 /*     ABOUT ME PAGE    */
-#me-pic {
+#about img {
   width: 100%;
+}
+
+#about {
+  height: 50vh;
+  width: auto;
+  text-align: center;
+  padding: 5em 2em;
+  font-size: 1.2em;
 }
 
 /*   PORTFOLIO PAGE    */
@@ -503,6 +511,14 @@ footer a:hover {
   color: white;
 }
 
+/*   back button   */
+
+.back-btn {
+  width: 100%;
+  text-align: center;
+  height: 70px;
+}
+
 /*  DETAILED PROJECTS PAGE   */
 
 .project img {
@@ -585,6 +601,11 @@ tablet version
   .project p {
     text-align: left;
     padding: 1em;
+  }
+
+  /*  ABOUT ME PAGE   */
+  #about img {
+    width: 52vw;
   }
 }
 
