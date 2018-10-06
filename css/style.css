@@ -418,6 +418,10 @@ footer a:hover {
 
 /*   PORTFOLIO PAGE    */
 
+.header-sky-dt {
+  display: none;
+}
+
 .theme {
   grid-column: 1/-1;
   padding: 5em 3em 5em 3em;
@@ -610,6 +614,15 @@ web version
   }
   .rek-image {
     width: 100%;
+  }
+
+  .header-sky {
+    display: none;
+  }
+
+  .header-sky-dt {
+    display: block;
+    width: 100vw;
   }
 }
 
