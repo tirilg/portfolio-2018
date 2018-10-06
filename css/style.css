@@ -548,17 +548,16 @@ tablet version
 ----------------------------------------------------------------------------*/
 
 @media screen and (min-width: 35em) {
-  .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
   /* navigation */
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
   .outer-menu {
     display: none;
   }
   .webNav {
     display: block;
-    position: fixed;
     overflow: hidden;
     z-index: 600;
     align-items: center;
