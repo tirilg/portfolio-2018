@@ -357,16 +357,16 @@ mobile version
 
 /*   idea from: https://codepen.io/pirrera/pen/bqVeGx */
 
+#portfolio-btn {
+  line-height: 150px;
+}
 .btn {
   width: 15vw;
   padding: 1em 3em;
-  line-height: 150px;
   text-align: center;
-
-  transition: 0.5s;
-  background-size: 200% auto;
   color: white;
   box-shadow: 0 0 20px #eee;
+  background-size: 200% auto;
   background-image: linear-gradient(
     to right,
     rgba(134, 71, 190, 0.81) 0%,
@@ -374,6 +374,7 @@ mobile version
     rgba(236, 158, 143, 0.74) 60%,
     rgba(249, 170, 137, 0.74) 68%
   );
+  transition: 0.5s;
 }
 
 .btn:hover {
@@ -417,30 +418,11 @@ footer a:hover {
 
 /*   PORTFOLIO PAGE    */
 
-.seperate-three {
-  background-color: #302a49;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 0.8em;
-}
-
 .theme {
   grid-column: 1/-1;
   padding: 5em 3em 5em 3em;
   font-size: 1.1em;
   text-align: center;
-  letter-spacing: 0.01em;
-  line-height: 1.7em;
-}
-
-.theme-2 {
-  background-color: #302a49;
-  grid-column: 1/-1;
-  padding: 5em 3em 5em 3em;
-  font-size: 1.1em;
-  text-align: center;
-  color: white;
   letter-spacing: 0.01em;
   line-height: 1.7em;
 }
@@ -523,6 +505,13 @@ footer a:hover {
   width: 100vw;
 }
 
+.project h3,
+.project p {
+  text-align: center;
+  padding: 2em;
+  color: black;
+}
+
 /*-----------------------------------------------------------------------------
 tablet version
 ----------------------------------------------------------------------------*/
@@ -578,6 +567,21 @@ tablet version
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  /* detailed products page */
+  .project img {
+    width: 50vw;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project h3,
+  .project p {
+    text-align: left;
+    padding: 1em;
+  }
 }
 
 /*   PORTFOLIO PAGE    */
@@ -589,13 +593,6 @@ tablet version
 
 /* DETAILED PROJECTS PAGE  */
 
-.project img {
-  width: 50vw;
-}
-.project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 /*-----------------------------------------------------------------------------
 web version
 ----------------------------------------------------------------------------*/
