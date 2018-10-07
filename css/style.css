@@ -490,6 +490,7 @@ footer a:hover {
 #ux:hover,
 #frontend:hover {
   transform: scale(1.1);
+  letter-spacing: 0.3em;
 }
 
 #animation,
@@ -502,6 +503,7 @@ footer a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.5s ease;
+  letter-spacing: 0.1em;
 }
 
 .image-text {
@@ -511,6 +513,7 @@ footer a:hover {
   transform: translate(-50%, -50%);
   font-size: 2em;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .image-overlay {
@@ -559,11 +562,6 @@ tablet version
 @media all and (min-width: 35em) {
   /* navigation */
 
-  .project:hover {
-    box-shadow: 3px 3px 5px 6px #ccc;
-    transition: 1s ease;
-  }
-
   .logo {
     grid-column: 1;
     grid-row: 1;
@@ -589,6 +587,8 @@ tablet version
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
   }
 
   .webNav a:hover {
@@ -619,6 +619,12 @@ tablet version
     text-align: right;
   }
 
+  /* portfolio page */
+
+  .theme {
+    padding: 0em 20em 10em 20em;
+  }
+
   /* detailed products page */
   .project img {
     width: 50vw;
@@ -628,6 +634,10 @@ tablet version
     grid-template-columns: 1fr 1fr;
   }
 
+  .project:hover {
+    box-shadow: 1px 1px 30px 2px #302a49;
+    transition: 1s ease;
+  }
   .project h3,
   .project p {
     text-align: left;
